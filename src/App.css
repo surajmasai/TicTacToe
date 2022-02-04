@@ -1,0 +1,41 @@
+* {
+  background-color: hsla(167, 30%, 18%, 0.9);
+}
+.Block {
+  width: 150px;
+  height: 150px;
+  border: 5px solid black;
+  background-size: cover;
+  display: inline-block;
+}
+.Board {
+  /* margin: auto; */
+  /* margin-left: 707px; */
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  color: red;
+}
+.row > button {
+  width: 300px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+}
+.row {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.mark1 {
+  background-image: url("https://www.pngkit.com/png/detail/507-5078753_d-tic-tac-toe-circle.png");
+}
+.mark2 {
+  background-image: url("https://i.dlpng.com/static/png/7038964_preview.png");
+}
