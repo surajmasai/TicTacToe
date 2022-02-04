@@ -34,12 +34,14 @@ function Board() {
 
       if (marks[c[0]] === 1 && marks[c[1]] === 1 && marks[c[2]] === 1) {
         alert("player 1 wins");
+        // console.log("player 1 wins");
         window.location.reload();
       }
 
 
       if (marks[c[0]] === 2 && marks[c[1]] === 2 && marks[c[2]] === 2) {
         alert("player 2 wins");
+        // console.log("player 2 wins");
         window.location.reload();
       }
 
